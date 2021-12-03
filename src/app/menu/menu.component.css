@@ -1,0 +1,67 @@
+.dropdown{
+   list-style: none;
+   color: black;
+}
+
+.navbar-brand{
+    padding: 0 100px;
+}
+
+#navbarDropdown{
+    color: #1289A7;
+}
+
+#txtColor{
+    color: #1289A7;
+
+}
+
+.bg{
+    background-color: #6F1E51;
+    margin: 12px; 
+    padding: 5px;  
+}
+
+.dropdown-item{
+    color: #1289A7;
+    font-size: 15pt;
+}
+
+.navbar{
+    background-color: #6F1E51;
+}
+
+
+.busca{
+    background: url('https://i.imgur.com/8cbBzdr.png')  no-repeat center left;
+    background-size: 20px;    
+    padding: 7px 35px;
+    border: none;
+    width: 20px;
+    transition: width 0.5s ease-in;
+    outline: none;
+  
+}
+.busca:focus{
+    width: 250px;
+    border-bottom: solid 1px #1289A7;
+    outline: none;
+    z-index: 1;       
+}
+
+.fas{
+    font-size: 15pt;
+    color: #1289A7;
+}
+
+.mr-2{
+    font-size: 12pt;
+}
+
+
+.nav-link{
+    font-size: 13pt;
+    color: #1289A7; 
+}
+
+
