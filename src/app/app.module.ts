@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginCadastroComponent } from './login-cadastro/login-cadastro.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    LoginCadastroComponent
+    LoginCadastroComponent,
+
   ],
   imports: [
     BrowserModule,
