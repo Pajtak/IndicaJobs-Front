@@ -4,18 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginCadastroComponent } from './login-cadastro/login-cadastro.component';
-import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
 
-    LoginCadastroComponent
-=======
-    MenuComponent,
-    RodapeComponent
+    LoginCadastroComponent,
+    RodapeComponent,
+    NavBarComponent
 
   ],
   imports: [
