@@ -14,7 +14,7 @@
 	color: #c4c3ca;
 	background-image: url(../../assets/img/Fundo-Login.jpg);
   background-size: cover;
-	overflow-x: hidden;
+	overflow-x: hidden; 
 }
 a {
 	cursor: pointer;

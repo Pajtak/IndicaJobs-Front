@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoginCadastroComponent } from './login-cadastro/login-cadastro.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+
+  {path:'', redirectTo: 'login-cadastro', pathMatch: 'full'},
+
+  {path:'login-cadastro',component: LoginCadastroComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
