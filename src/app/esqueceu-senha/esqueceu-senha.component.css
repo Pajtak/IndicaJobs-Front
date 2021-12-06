@@ -1,8 +1,4 @@
 
-
-/* Please ❤ this if you like it! */
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
 
@@ -14,7 +10,7 @@
 	color: #c4c3ca;
 	background-image: url(../../assets/img/Fundo-Login.jpg);
   background-size: cover;
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 a {
 	cursor: pointer;
@@ -115,7 +111,7 @@ h6 span{
 .card-front, .card-back {
   width: 100%;
   height: 100%;
-  background-color: #062b35;
+  background-color: #313838f6;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
