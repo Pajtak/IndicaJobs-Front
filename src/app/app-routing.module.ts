@@ -2,10 +2,15 @@ import { EsqueceuSenhaComponent } from './esqueceu-senha/esqueceu-senha.componen
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
+
 import { LoginCadastroComponent } from './login-cadastro/login-cadastro.component';
 
 const routes: Routes = [
 
+
+  {path:'', redirectTo: 'login-cadastro', pathMatch: 'full'},
+
+  {path:'login-cadastro',component: LoginCadastroComponent}
   {path:'', redirectTo: 'bem-vindo', pathMatch: 'full'},
 
   {path:'bem-vindo',component: BemVindoComponent},
